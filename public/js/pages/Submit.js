@@ -420,7 +420,7 @@ export default {
             this.turnstileToken = null;
             this.turnstileWidgetId = null;
 
-            const SITEKEY = '0x4AAAAAAClZM2Ug4vdAxfJI';
+            const SITEKEY = '0x4AAAAAAEql-DDXDSJmNZ46';
 
             this.$nextTick(() => {
                 const targetId = this.submissionType === 'record' ? '#turnstile-record' : '#turnstile-level';
