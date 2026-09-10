@@ -45,7 +45,7 @@ const router = VueRouter.createRouter({
 
 router.beforeEach((to, from, next) => {
     const listPrefix = store.listType === LIST2 ? LIST2 : LIST1;
-    const listName = "The Piss List";
+    const listName = "Silent Clubstep Demon List";
     let title = `${listPrefix} | ${listName}`;
 
     if (to.path === '/' || to.params.id) title = `${listPrefix} | ${listName}`;
